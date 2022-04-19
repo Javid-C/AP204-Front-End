@@ -1,0 +1,113 @@
+/* h1 {
+  color: red;
+} */
+
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+
+/* body {
+  background-color: red;
+} */
+
+/* .wrapper *{
+
+}     */
+
+/* .title {
+  color: red;
+  background-color: aqua;
+}
+
+.article {
+  color: blue;
+}
+
+.info {
+  color: yellowgreen;
+}
+
+.title.info {
+  color: teal;
+}
+
+.wrapper .title {
+  color: orange;
+}
+
+.wrapper .wrapper1 .wrapper2 .title1 .title2 {
+}
+
+#liElement {
+  color: indigo;
+}
+
+#liElement#Lielement {
+}
+
+#liElement #Lielement {
+} */
+
+/* .title,
+.info,
+.article {
+  color: red;
+} */
+
+/* h1.title {
+  color: red;
+}
+
+#liElement.title {
+}
+
+.title #h1 {
+}
+
+.wrapper > p {
+  color: blue;
+}
+
+.wrapper + .title {
+  color: blue;
+}
+
+.wrapper ~ .title {
+  color: pink;
+}
+
+[class="wrapper2"] {
+  color: chocolate;
+} */
+
+/* [href*="wrapper2"] {
+    color: chocolate;
+  }  */
+
+/* gold:0, silver:0, bronze:0 */
+
+.specifity {
+  color: red;
+}
+
+/* #title {
+  color: blue;
+} */
+p {
+  color: rgb(126, 126, 126);
+}
+.specifity.info {
+  color: chocolate;
+}
+p.specifity.info {
+  color: aqua;
+}
+#title {
+  color: rebeccapurple;
+}
+
+* {
+  background-color: aqua;
+  color: yellow;
+}
