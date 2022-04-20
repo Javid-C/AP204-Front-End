@@ -1,0 +1,33 @@
+h1 {
+  /* text-align: right;
+  direction: rtl;
+  unicode-bidi: bidi-override; */
+  text-shadow: 2px 2px 2px red;
+}
+
+.plane {
+  font-size: 50px;
+  color: red;
+}
+a {
+  font-size: 40px;
+  /* text-decoration: none; */
+  /* text-decoration: line-through;
+  text-decoration-style: wavy;
+  text-decoration-color: red; */
+  /* text-decoration-thickness: 20px; */
+  text-transform: capitalize;
+}
+
+.duck {
+  width: 800px;
+  margin: 0 auto;
+}
+p {
+  text-indent: 100px;
+  text-align: justify;
+  /* letter-spacing: 20px; */
+  /* word-spacing: 50px; */
+  line-height: 40px;
+  /* white-space: pre-wrap; */
+}

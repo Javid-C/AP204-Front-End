@@ -1,0 +1,41 @@
+/* HEX codes
+    #  [0-9] and a-f
+
+    #ffffff
+    #fff
+*/
+
+/* RGB
+    rgb(0 - 255, 0 - 255, 0 - 255)
+*/
+/* h1 {
+  color: #1cff8a;
+  color: rgb(0, 0, 0);
+} */
+
+body {
+  height: 500vh;
+}
+
+.box {
+  border: 10px dotted black;
+  text-align: center;
+  /* width: 300px; */
+  height: 600px;
+  /* background-color: red; */
+  background: linear-gradient(250deg, #ff00ae, #f2fcfe);
+  /* background-image: url(../images/sun-rise.jpg); */
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  /* background-position: center; */
+  /* background-attachment: fixed; */
+  padding: 50px;
+  /* background-origin: content-box; */
+  /* background-clip: padding-box; */
+
+  font-size: 75px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
