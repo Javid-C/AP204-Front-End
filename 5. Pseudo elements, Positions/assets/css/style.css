@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(255, 74, 222);
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  position: relative;
+  /* top: 50px; */
+  /* left: 50px; */
+  right: 0px;
+  /* bottom: 100px; */
+  margin-top: 50px;
+}
+
+body {
+  height: 500vh;
+}
+
+.box .insideBox {
+  width: 50px;
+  height: 50px;
+  background-color: blue;
+  position: relative;
+  top: 50px;
+  right: 20px;
+}
+
+.backToTop {
+  width: 70px;
+  height: 70px;
+  background-color: aqua;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  position: fixed;
+  right: 50%;
+  bottom: 50%;
+}
+
+nav {
+  height: 80px;
+  width: 100%;
+  background-color: brown;
+  position: sticky;
+  top: 0px;
+}
+
+div[class*="box"] {
+  width: 200px;
+  height: 200px;
+}
+
+.box1 {
+  background-color: red;
+  position: relative;
+  left: 100px;
+  z-index: 1;
+}
+.box2 {
+  background-color: blue;
+  position: relative;
+  z-index: -999;
+}
+.box3 {
+  background-color: pink;
+  position: absolute;
+  top: 200px;
+  left: 100px;
+  z-index: -1;
+}
+.box4 {
+  background-color: violet;
+  position: absolute;
+  top: 0;
+}
