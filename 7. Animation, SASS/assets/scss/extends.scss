@@ -1,0 +1,12 @@
+@import "variables";
+
+%buttons_features {
+  border: 2px solid black;
+  width: 70px;
+  height: 30px;
+  padding: 10px 20px;
+  font-size: $font-size / 2;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}

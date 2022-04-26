@@ -1,0 +1,52 @@
+@import "variables";
+@import "extends";
+@import "mixin";
+
+.container {
+  width: 1400px;
+  margin: 0 auto;
+  .row {
+    display: flex;
+    justify-content: space-around;
+    .item {
+      width: 200px;
+      height: 200px;
+      background-color: $primary_color;
+    }
+  }
+  .products {
+    margin-top: 20px;
+    .product {
+      width: 200px;
+      height: 200px;
+      background-color: $secondary_color;
+      margin-top: 5px;
+      font-size: $font_size / 2;
+    }
+  }
+  .buttons {
+    .button {
+      @extend %buttons_features;
+    }
+    .warningBtn {
+      background-color: rgb(255, 0, 200);
+    }
+    .successBtn {
+      background-color: green;
+    }
+    .errorBtn {
+      background-color: red;
+    }
+  }
+  .boxes {
+    .box-1 {
+      @include color(blue, red);
+    }
+    .box-2 {
+      @include color(pink, violet);
+    }
+    .box-3 {
+      @include color(teal);
+    }
+  }
+}
