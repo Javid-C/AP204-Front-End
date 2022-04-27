@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header .header-top {
+  height: 40px;
+  background-color: whitesmoke;
+}
+
+header .header-top .container {
+  height: 100%;
+}
+
+header .header-top .container .row {
+  height: 100%;
+}
+
+header .header-top .container .row ul {
+  margin: 0 !important;
+}
+
+header .header-top .container .row .registration ul li:not(:last-child)::after {
+  content: "|";
+  position: relative;
+  left: 13px;
+}
+
+header .header-bottom .container .row ul {
+  margin: 0;
+}
+
+header .header-bottom .container .row .search-basket .search input {
+  border-radius: 20px;
+}
+
+header .header-bottom .container .row .search-basket .basket-wish {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .header-bottom .container .row .search-basket .basket-wish ul {
+  width: 80px;
+}
+
+header .header-bottom .container .row .search-basket .basket-wish ul li i {
+  font-size: 25px;
+}
+/*# sourceMappingURL=style.css.map */
