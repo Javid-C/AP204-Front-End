@@ -1,0 +1,28 @@
+.container .row .zone-shadow {
+  -webkit-box-shadow: 0 0px 10px 6px gray;
+          box-shadow: 0 0px 10px 6px gray;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.container .row .process {
+  border: 1px solid black;
+  padding: 30px;
+}
+
+.container .row ul {
+  margin-top: 20px;
+  height: 200px;
+}
+
+.container .row ul .task {
+  padding: 5px 15px;
+  border: 1px solid black;
+}
+
+.container .row ul .element-opacity {
+  opacity: 0.3;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,26 @@
+.container{
+    .row{
+        .zone-shadow{
+            box-shadow: 0 0px 10px 6px gray;
+            transition: .2s;
+        }
+        .process{
+            border: 1px solid black;
+            padding: 30px;
+        }
+        ul{
+            margin-top: 20px;
+            height: 200px;
+            .task{
+                padding: 5px 15px;
+                border: 1px solid black;
+            }
+            .element-opacity{
+                opacity: 0.3;
+                transition: .3s;
+            }
+
+            
+        }
+    }
+}
