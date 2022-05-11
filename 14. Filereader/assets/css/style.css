@@ -1,0 +1,54 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.selectImg{
+    display: none;
+}
+.container .row .image{
+    height: 100px;
+    object-fit: contain;
+    
+    position: relative;
+}
+
+.container .row .image .icon{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1;
+    color: red;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.dragDrop{
+    display: flex;
+}
+
+.dropZone{
+    width: 400px;
+    height: 100px;
+    border: 3px dashed black;
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+cursor: pointer;
+}
+
+.clickBtn{
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    border: 3px solid pink;
+    cursor: pointer;
+}
+
