@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    height: 500vh;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    position: relative;
+    border: 20px solid black;
+    padding: 20px;
+    margin: 20px;
+    position: relative;
+    left: 200px;
+}
+
+#elem {
+    color: #006;
+    background-color: #aaa;
+    font-size: 25px;
+    padding: 1em;
+    text-align: center;
+  }
+
+  .article{
+      height: 200px;
+      overflow-y: scroll;
+  }
