@@ -21,7 +21,7 @@
 // xhr.open("GET", "https://jsonplaceholder.typicode.com/posts/");
 // xhr.send();
 
-fetch("https://jsonplaceholder.typicode.com/users/5", {
+fetch("https://jsonplaceholder.typicode.com/photos", {
   method: "GET",
 })
   .then((resp) => resp.json())
